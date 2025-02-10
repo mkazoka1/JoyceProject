@@ -7,7 +7,9 @@ import ContactPage from "./components/ContactPage";
 import Footer from "./components/Footer";
 import "./components/AboutPage.css";  // Import AboutPage CSS separately
 import "./components/LandingPage.css";  // Import other CSS files as needed
+import Services from "./components/Services"
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/services" element={<Services />} /> {/* Services Route */}
       </Routes>
       <Footer />
     </Router>

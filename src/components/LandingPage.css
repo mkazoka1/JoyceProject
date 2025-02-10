@@ -1,13 +1,12 @@
 .landing-container {
-    background: url("/background.jpg") no-repeat center center/cover;
-    height: 100vh;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background: url("/images/money.jpg") no-repeat center center/cover;
+    background-size: cover;
   }
-  
+  .landing-container {
+    height: 100vh;  /* Makes it full screen */
+    width: 100%;  /* Ensures full width */
+}
+
   .overlay {
     position: absolute;
     top: 0;
